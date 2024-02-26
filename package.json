@@ -1,0 +1,45 @@
+{
+  "name": "slidev-theme-ventus",
+  "version": "0.1.4",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "ventus",
+    "slidev-theme-ventus"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.42.5"
+  },
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev slides.md --open",
+    "export": "slidev export slides.md",
+    "screenshot": "slidev export slides.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.46.3",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.3",
+    "theme-vitesse": "^0.7.5",
+    "vite-svg-loader": "^5.1.0"
+  },
+  "devDependencies": {
+    "@iconify-json/wi": "^1.1.2",
+    "@slidev/cli": "^0.46.3",
+    "@types/node": "^20.11.5",
+    "playwright-chromium": "^1.25.1"
+  },
+  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Nunito Sans",
+        "mono": "Fira Code"
+      },
+      "hightlighter": "prism"
+    }
+  }
+}

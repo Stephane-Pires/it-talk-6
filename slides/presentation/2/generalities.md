@@ -1,0 +1,3 @@
+# Generalities
+
+<Text> "Playwright is a cross-browser testing framework developed by Microsoft that allows developers to automate interactions with web browsers, including Chrome, Firefox, and Safari. It offers a single API for multiple browsers, enabling consistent automation scripts across different browser environments. Playwright provides advanced capabilities, such as capturing screenshots, handling network requests, and testing on various devices, making it a versatile tool for web application testing and development" </Text>

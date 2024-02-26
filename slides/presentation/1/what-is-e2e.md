@@ -1,0 +1,3 @@
+# What is End to end ?
+
+<Text> "End-to-end tests are a type of software testing that assesses the entire application workflow from start to finish to ensure its proper functioning. These tests simulate real user scenarios, checking the interaction of different system components to identify potential issues in the integrated system. The goal of end-to-end testing is to validate that all system elements work together harmoniously, providing a more comprehensive assessment of the software's functionality." </Text>

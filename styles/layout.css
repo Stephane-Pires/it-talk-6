@@ -1,0 +1,47 @@
+/* general css here */
+
+html {
+
+  h1 {
+    font-family: 'Merienda'
+  }
+
+  p, span, section {
+    font-family: 'Open Sans'
+     }
+}
+
+html:not(.dark) {
+  /* light mode css here */
+  @apply text-light-text-base;
+
+  h1 {
+    @apply text-brand-dark;
+  }
+  
+}
+
+html.dark {
+  /* dark mode css here */
+  @apply text-dark-text-base;
+
+  h1 {
+    @apply text-brand-logo;
+  }
+  
+}
+
+.slidev-toc-item {
+  @apply dark:hover:text-brand-logo transition ease-in-out duration-300
+}
+
+
+.slidev-layout {
+  @apply relative h-full;
+
+  h1 {
+    @apply mb-8 font-bold;
+  }
+
+}
+
